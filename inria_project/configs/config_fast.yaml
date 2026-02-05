@@ -1,0 +1,64 @@
+# Конфигурация для обучения модели сегментации (БЫСТРАЯ ВЕРСИЯ)
+
+# Пути к данным
+data:
+  root: './data/AerialImageDataset'
+
+# Параметры датасета
+dataset:
+  patch_size: 512
+  train_stride: 256  # Перекрытие 50% для train
+  val_stride: 512    # Без перекрытия для val
+  normalize: true
+  cache_images: false  # ОТКЛЮЧЕНО для скорости
+
+# Параметры DataLoader
+dataloader:
+  batch_size: 48  # Увеличен для лучшей загрузки GPU
+  num_workers: 0  # 0 быстрее на Windows
+  pin_memory: true
+  persistent_workers: false  # Отключено
+  prefetch_factor: null  # Отключено
+
+# Архитектура модели
+model:
+  name: 'unet'
+  encoder_name: 'resnet50'
+  encoder_weights: 'imagenet'
+  in_channels: 3
+  classes: 1
+  activation: null  # Логиты на выходе
+
+# Параметры обучения
+training:
+  epochs: 50
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  
+  # Loss функция
+  loss:
+    name: 'dice_bce'  # Комбинированный для дополнительных баллов
+    dice_weight: 0.5
+    bce_weight: 0.5
+    smooth: 1.0
+  
+  # Learning rate scheduler
+  scheduler:
+    name: 'ReduceLROnPlateau'
+    factor: 0.5
+    patience: 5
+  
+  # Early stopping
+  early_stopping:
+    patience: 10
+
+# Логирование
+logging:
+  use_tensorboard: true
+  save_dir: './results/logs'
+  log_interval: 50
+
+# Checkpoints
+checkpoints:
+  save_dir: './models/checkpoints'
+  save_interval: 5

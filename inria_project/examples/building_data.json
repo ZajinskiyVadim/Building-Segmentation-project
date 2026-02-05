@@ -1,0 +1,11 @@
+{
+  "area_m2": 239934.06,
+  "area_ha": 23.993406,
+  "building_pixels": 2665934,
+  "coverage_percent": 10.663736,
+  "image_size": [
+    5000,
+    5000
+  ],
+  "threshold": 0.5
+}

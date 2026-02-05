@@ -1,0 +1,90 @@
+# Конфигурация проекта INRIA Building Segmentation
+
+# Пути к данным
+data:
+  root: './data/AerialImageDataset'
+  train_cities: ['austin', 'chicago', 'kitsap', 'tyrol-w', 'vienna']
+  test_cities: ['bellingham', 'bloomington', 'innsbruck', 'san', 'tyrol-e']
+
+# Параметры датасета
+dataset:
+  patch_size: 512
+  train_stride: 256  # Перекрытие 50% для аугментации данных
+  val_stride: 512    # Без перекрытия для валидации
+  test_stride: 512   # Без перекрытия для теста
+  normalize: true
+  cache_images: true  # Кэшировать изображения в RAM (требует ~27GB RAM)
+  
+# Параметры DataLoader
+dataloader:
+  batch_size: 16  # Увеличиваем для лучшей загрузки GPU
+  num_workers: 2  # Параллельная загрузка данных (попробуй 2-8)
+  pin_memory: true
+  persistent_workers: true  # Не пересоздавать workers
+  
+# Параметры модели
+model:
+  name: 'unet'  # unet, unetplusplus, deeplabv3plus
+  encoder_name: 'resnet50'  # resnet50, efficientnet-b4, etc.
+  encoder_weights: 'imagenet'
+  in_channels: 3
+  classes: 1  # Бинарная сегментация
+  activation: null  # None для BCEWithLogitsLoss
+  
+# Параметры обучения
+training:
+  epochs: 50
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  scheduler:
+    name: 'ReduceLROnPlateau'  # CosineAnnealingLR, ReduceLROnPlateau
+    patience: 5
+    factor: 0.5
+  
+  # Loss функция
+  loss:
+    name: 'dice_bce'  # dice, bce, dice_bce, focal
+    dice_weight: 0.5
+    bce_weight: 0.5
+    
+  # Early stopping
+  early_stopping:
+    patience: 10
+    min_delta: 0.001
+    
+# Параметры валидации
+validation:
+  interval: 1  # Каждую эпоху
+  save_best: true
+  metric: 'iou'  # iou, f1, accuracy
+  
+# Метрики
+metrics:
+  - 'iou'
+  - 'f1'
+  - 'accuracy'
+  - 'precision'
+  - 'recall'
+  
+# Логирование
+logging:
+  use_tensorboard: true
+  use_wandb: false
+  project_name: 'inria-building-segmentation'
+  save_dir: './results'
+  
+# Чекпоинты
+checkpoints:
+  save_dir: './models/checkpoints'
+  save_interval: 5  # Каждые 5 эпох
+  keep_last_n: 3
+  
+# Инференс
+inference:
+  tta: false  # Test Time Augmentation
+  threshold: 0.5  # Порог для бинаризации
+  
+# Расчет площади
+area_calculation:
+  pixel_size_m: 0.3  # 30 см/пиксель
+  pixel_area_m2: 0.09  # 0.3 * 0.3 = 0.09 м²/пиксель
