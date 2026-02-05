@@ -548,7 +548,7 @@ Area Accuracy = 1 - |Predicted_Area - True_Area| / True_Area
 Полная документация доступна в папке `inria_project/docs/`:
 
 1. [**Полное руководство**](inria_project/docs/FULL_PROJECT_GUIDE_RU.md) — подробная инструкция по всем этапам проекта
-2. [**Анализ и выводы**](inria_project/docs/CONCLUSIONS_AND_ANALYSIS.md) — детальный анализ результатов
+2. [**Анализ и выводы**](inria_project/docs/CONCLUSIONS_AND_ANALYSIS .md) — детальный анализ результатов
 3. [**Руководство по защите**](inria_project/docs/DEFENSE_GUIDE.md) — подготовка к защите диплома
 ---
 
