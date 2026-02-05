@@ -6,6 +6,7 @@
 ---
 > **Автор:** Zajinskiy Vadim
 > https://stepik.org/users/1128404373/profile
+---
 > Сылка на весь архив проекта с лучшей моделью.
 > https://drive.google.com/file/d/1lYdtqOGvwI6VmQOW9x-p772JFB7mdzlM/view?usp=sharing
 ---
