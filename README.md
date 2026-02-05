@@ -550,7 +550,7 @@ Area Accuracy = 1 - |Predicted_Area - True_Area| / True_Area
 1. [**Полное руководство**](FULL_PROJECT_GUIDE_RU.md) — подробная инструкция по всем этапам проекта
 2. [**Анализ и выводы**](docs/CONCLUSIONS_AND_ANALYSIS.md) — детальный анализ результатов
 
-1. [**Полное руководство**](Building-Segmentation-project/tree/main/inria_project/docs/FULL_PROJECT_GUIDE_RU.md) — подробная инструкция по всем этапам проекта
+1. [**Полное руководство**](tree/main/inria_project/docs/FULL_PROJECT_GUIDE_RU.md) — подробная инструкция по всем этапам проекта
 2. [**Анализ и выводы**](inria_project/docs/CONCLUSIONS_AND_ANALYSIS.md) — детальный анализ результатов
 
 /tree/main/inria_project/docs
