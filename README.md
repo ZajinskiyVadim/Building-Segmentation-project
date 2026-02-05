@@ -250,7 +250,10 @@ inria_project/
 └── 📚 docs/                       # Документация проекта
     ├── FULL_PROJECT_GUIDE_RU.md
     ├── CONCLUSIONS_AND_ANALYSIS.md
-    └── DEFENSE_GUIDE.md
+    └── AUTO_SCALE_IMPLEMENTATION_GUIDE.md
+    └── SCALE_DETERMINATION_GUIDE.md
+    └── STREAMLIT_APP_OVERVIEW.md
+    └── STREAMLIT_RUN_GUIDE.md
 ```
 
 ---
