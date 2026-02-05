@@ -547,7 +547,7 @@ Area Accuracy = 1 - |Predicted_Area - True_Area| / True_Area
 
 Полная документация доступна в папке `docs/`:
 
-1. [**Полное руководство**](/FULL_PROJECT_GUIDE_RU.md) — подробная инструкция по всем этапам проекта
+1. [**Полное руководство**](FULL_PROJECT_GUIDE_RU.md) — подробная инструкция по всем этапам проекта
 2. [**Анализ и выводы**](docs/CONCLUSIONS_AND_ANALYSIS.md) — детальный анализ результатов
 
 ---
