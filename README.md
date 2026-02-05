@@ -140,8 +140,8 @@ GSD = √(pixel_width² + pixel_height²)
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/yourusername/building-segmentation.git
-cd building-segmentation
+git clone https://github.com/ZajinskiyVadim/Building-Segmentation-project.git
+cd Building-Segmentation-project
 ```
 
 ### 2. Установка зависимостей
