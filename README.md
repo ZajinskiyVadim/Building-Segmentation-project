@@ -558,35 +558,6 @@ Area Accuracy = 1 - |Predicted_Area - True_Area| / True_Area
 
 ---
 
-## 📝 Цитирование
-
-Если используете этот проект в своих исследованиях, пожалуйста, укажите:
-
-### Проект
-
-```bibtex
-@misc{vadim2026building,
-  title={Automatic Building Segmentation from Satellite Images using U-Net with ResNet50},
-  author={Vadim},
-  year={2026},
-  publisher={GitHub},
-  howpublished={\url{https://github.com/yourusername/building-segmentation}}
-}
-```
-
-### Датасет INRIA
-
-```bibtex
-@inproceedings{maggiori2017inria,
-  title={Can semantic labeling methods generalize to any city? The INRIA Aerial Image Labeling Benchmark},
-  author={Maggiori, Emmanuel and Tarabalka, Yuliya and Charpiat, Guillaume and Alliez, Pierre},
-  booktitle={2017 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)},
-  pages={3226--3229},
-  year={2017},
-  organization={IEEE}
-}
-```
-
 ## 📄 Лицензия
 
 Этот проект распространяется под лицензией **MIT**. См. файл [LICENSE](LICENSE) для деталей.
