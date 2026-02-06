@@ -10,10 +10,11 @@
 Сылка на демонстрационый сайт проекта https://huggingface.co/spaces/ZajinskiyVadim/Building-Segmentation
 --- 
 Можно загружать спутниковые снимки не большого размера в формате .png', '.jpg', '.jpeg', '.tif', '.tiff.
-/ На Вкладке Примеры есть два спутниковых снимка, для примера.
+-- На Вкладке Примеры есть два спутниковых снимка, для примера.
 
 ---
 > Сылка на весь архив проекта с лучшей моделью.
+> 
 > https://drive.google.com/file/d/1lYdtqOGvwI6VmQOW9x-p772JFB7mdzlM/view?usp=sharing
 ---
 
