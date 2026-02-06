@@ -8,7 +8,9 @@
 > https://stepik.org/users/1128404373/profile
 ---
 Сылка на демонстрационый сайт проекта https://huggingface.co/spaces/ZajinskiyVadim/Building-Segmentation
----
+--- 
+Можно загружать спутниковые снимки не большого размера в формате .png', '.jpg', '.jpeg', '.tif', '.tiff
+
 ---
 > Сылка на весь архив проекта с лучшей моделью.
 > https://drive.google.com/file/d/1lYdtqOGvwI6VmQOW9x-p772JFB7mdzlM/view?usp=sharing
