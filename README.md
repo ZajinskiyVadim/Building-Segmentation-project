@@ -15,7 +15,7 @@
 ---
 > Сылка на весь архив проекта с лучшей моделью.
 > 
-> https://drive.google.com/file/d/1lYdtqOGvwI6VmQOW9x-p772JFB7mdzlM/view?usp=sharing
+> https://drive.google.com/file/d/124vHkLlFGeUZgiTITexb6bM24Nujpx9O/view?usp=sharing
 ---
 
 ## 📊 Результаты
