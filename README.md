@@ -7,8 +7,10 @@
 > **Автор:** Zajinskiy Vadim
 > https://stepik.org/users/1128404373/profile
 ---
-Сылка на демонстрационый сайт проекта https://huggingface.co/spaces/ZajinskiyVadim/Building-Segmentation
---- 
+Сылка на демонстрационый сайт проекта 
+---
+https://huggingface.co/spaces/ZajinskiyVadim/Building-Segmentation
+
 Можно загружать спутниковые снимки не большого размера в формате .png', '.jpg', '.jpeg', '.tif', '.tiff.
 На Вкладке Примеры есть два спутниковых снимка, для теста.
 
