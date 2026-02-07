@@ -7,7 +7,7 @@
 > **Автор:** Zajinskiy Vadim
 > https://stepik.org/users/1128404373/profile
 ---
-Ссылка на демонстрационый сайт проекта 
+Ссылка на демонстрационный сайт проекта 
 ---
 https://huggingface.co/spaces/ZajinskiyVadim/Building-Segmentation
 
