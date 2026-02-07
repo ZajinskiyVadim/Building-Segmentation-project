@@ -16,10 +16,11 @@ https://huggingface.co/spaces/ZajinskiyVadim/Building-Segmentation
 
 ---
 > Ссылка на весь архив проекта с лучшей моделью.
+> 
 > https://drive.google.com/file/d/124vHkLlFGeUZgiTITexb6bM24Nujpx9O/view?usp=sharing
 ---
 
-[📚 Ноутбуки]
+[📚 Ноутбуки](inria_project/notebooks/01_dataset_exploration.ipynb) 
 ## Исследование датасета INRIA Aerial Image Labeling
 [](inria_project/notebooks/01_dataset_exploration.ipynb) 
 
