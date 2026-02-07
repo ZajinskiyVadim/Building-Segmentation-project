@@ -22,10 +22,10 @@ https://huggingface.co/spaces/ZajinskiyVadim/Building-Segmentation
 
 [📚 Ноутбуки](inria_project/notebooks/01_dataset_exploration.ipynb) 
 ## Исследование датасета INRIA Aerial Image Labeling
-[](inria_project/notebooks/01_dataset_exploration.ipynb) 
+[Исследование датасета INRIA](inria_project/notebooks/01_dataset_exploration.ipynb) 
 
-## Интерактивный ноутбук для тестирования модели и анализа результатов=
-[](inria_project/notebooks/02_evaluation.ipynb) 
+## Интерактивный ноутбук для тестирования модели и анализа результатов
+[ Интерактивный ноутбук для тестирования модели и анализа результатов](inria_project/notebooks/02_evaluation.ipynb) 
 
 ---
 
