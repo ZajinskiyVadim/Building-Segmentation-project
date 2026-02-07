@@ -506,7 +506,7 @@ print(f"Покрытие: {result['coverage_percent']:.2f}%")
 IoU = TP / (TP + FP + FN)
 ```
 
-**Наш результат:** 0.8022 (80.22%)
+**Мой результат:** 0.8022 (80.22%)
 
 ### 2. F1-Score (Dice Coefficient)
 
@@ -514,7 +514,7 @@ IoU = TP / (TP + FP + FN)
 F1 = 2 × (Precision × Recall) / (Precision + Recall)
 ```
 
-**Наш результат:** 0.8903 (89.03%)
+**Мой результат:** 0.8903 (89.03%)
 
 ### 3. Pixel Accuracy
 
@@ -522,7 +522,7 @@ F1 = 2 × (Precision × Recall) / (Precision + Recall)
 Accuracy = (TP + TN) / (TP + TN + FP + FN)
 ```
 
-**Наш результат:** 0.9363 (93.63%)
+**Мой результат:** 0.9363 (93.63%)
 
 ### 4. Точность площади
 
@@ -530,7 +530,7 @@ Accuracy = (TP + TN) / (TP + TN + FP + FN)
 Area Accuracy = 1 - |Predicted_Area - True_Area| / True_Area
 ```
 
-**Наш результат:** 98.63%
+**Мой результат:** 98.63%
 
 ---
 
